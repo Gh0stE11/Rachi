@@ -1,0 +1,36 @@
+@import url();
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 1.2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+
+    font-family: "Inter", sans-serif, Arial;
+}
+
+nav img {
+    width: 4rem;
+}
+
+nav ul li {
+    padding: 0 1rem;
+} 
+
+
